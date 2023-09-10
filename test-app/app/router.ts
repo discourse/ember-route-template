@@ -7,5 +7,10 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  // Add route declarations here
+  this.route('hbs-template-works');
+  this.route('gjs-template-works');
+  this.route('gts-template-works');
+  this.route('model-works', { path: 'model-works/:id' });
+  this.route('controller-works', { path: 'controller-works/:id' });
+  this.route('component-works', { path: 'component-works/:id' });
 });

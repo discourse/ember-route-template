@@ -5,9 +5,9 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/discourse/ember-route-template",
   "license": "MIT",
-  "author": "",
+  "author": "Discourse",
   "exports": {
     ".": {
       "types": "./declarations/index.d.ts",

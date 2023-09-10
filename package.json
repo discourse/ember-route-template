@@ -1,8 +1,8 @@
 {
   "private": true,
-  "repository": "",
+  "repository": "https://github.com/discourse/ember-route-template",
   "license": "MIT",
-  "author": "",
+  "author": "Discourse",
   "scripts": {
     "build": "yarn workspace ember-route-template run build",
     "lint": "yarn workspaces run lint",

@@ -20,7 +20,6 @@
 
 - `cd test-app`
 - `yarn test` – Runs the test suite on the current Ember version
-- `yarn test:watch` – Runs the test suite in "watch mode"
 
 ## Running the test application
 
