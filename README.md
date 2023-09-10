@@ -99,7 +99,7 @@ class MyRouteComponent extends Component {
 export default RouteTemplate(MyRouteComponent);
 ```
 
-With this feature, it eliminates most of the reasons for needing components,
+With this feature, it eliminates most of the reasons for needing controllers,
 other than for query params (which is another coherence gap Polaris would need
 to address). We suggest exploring moving your non-QP controller logic into a
 component this way, treating controllers as "QP services" and nothing else.
