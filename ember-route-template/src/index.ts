@@ -1,5 +1,5 @@
 import { precompileTemplate } from '@ember/template-compilation';
-import { TemplateOnlyComponent } from '@ember/component/template-only';
+import type { TemplateOnlyComponent } from '@ember/component/template-only';
 
 export type TemplateFactory = ReturnType<typeof precompileTemplate>;
 
