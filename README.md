@@ -145,7 +145,7 @@ components in Glint.
 According to the [RFC][rfc], you can supply a signature like this:
 
 ```tsx
-// app/templates/my-route.gjs
+// app/templates/my-route.gts
 import RouteTemplate from "ember-route-template";
 
 interface MyRouteSignature {
@@ -167,7 +167,7 @@ TypeScript is considering other alternatives. In the meantime, the adapter
 function can accept a generic argument for the signature to make things easier:
 
 ```tsx
-// app/templates/my-route.gjs
+// app/templates/my-route.gts
 import RouteTemplate from "ember-route-template";
 
 interface MyRouteSignature {
@@ -187,7 +187,7 @@ This feature is only needed for bare `<template>` tags. Class-based components
 don't have this issue as they already accept a signature generic:
 
 ```tsx
-// app/templates/my-route.gjs
+// app/templates/my-route.gts
 import RouteTemplate from "ember-route-template";
 import Component from "@glimmer/component";
 
