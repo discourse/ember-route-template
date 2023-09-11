@@ -7,7 +7,7 @@
   ],
   "repository": "https://github.com/discourse/ember-route-template",
   "license": "MIT",
-  "author": "Discourse",
+  "author": "Discourse <team@discourse.org>",
   "exports": {
     ".": {
       "types": "./declarations/index.d.ts",
