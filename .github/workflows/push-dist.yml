@@ -23,7 +23,7 @@ jobs:
           cache: 'yarn'
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
-      - uses: chancancode/put-built-npm-package-contents-on-branch@omit-scripts
+      - uses: chancancode/put-built-npm-package-contents-on-branch@89bffed90b5f325801b437b729c63cdd72cd67bf
         with:
           branch: dist
           token: ${{ secrets.GITHUB_TOKEN }}
