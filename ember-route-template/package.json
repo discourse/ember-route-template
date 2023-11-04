@@ -1,7 +1,7 @@
 {
   "name": "ember-route-template",
   "version": "1.0.1",
-  "description": "The default blueprint for Embroider v2 addons.",
+  "description": "Provides an adapter for using <template> tags and components as route templates",
   "keywords": [
     "ember-addon"
   ],
