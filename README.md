@@ -210,6 +210,7 @@ export default RouteTemplate(MyRouteComponent);
 
 - Ember.js v3.28 or above
 - Embroider or ember-auto-import v2
+- [Ember 6.3 introduced native support for template tags](https://blog.emberjs.com/ember-released-6-3) in route templates, so you don't need this addon if your ember-source version is >= 6.3
 
 ## Installation
 
